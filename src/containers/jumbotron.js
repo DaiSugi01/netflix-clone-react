@@ -3,6 +3,7 @@ import React from 'react';
 import juboData from '../fixtures/jumbo.json';
 import { Jumbotron } from '../components';
 
+// eslint-disable-next-line import/prefer-default-export
 export function JumbotronContainer() {
   return (
     <Jumbotron.Container>
